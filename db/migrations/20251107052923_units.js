@@ -4,7 +4,8 @@ exports.up = (knex)=>{
         table.increments('id').primary();
         table.string('name').notNullable().unique();
         table.string('abbreviation').notNullable().unique();
-        table.timestamps('created_at').defaultTo(knex.fn.now());
+        table.boolean('is_deleted').notNullable().defaultTo(false);
+        table.timestamp('created_at').notNullable().defaultTo(knex.fn.now());
     });
 }
 
