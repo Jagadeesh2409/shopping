@@ -43,6 +43,24 @@ const response = {
   CATEGORIES_DELETED_SUCCESS: "Category deleted successfully",
   CATEGORIES_DELETED_FAILED: "Failed to delete category",
 
+  GET_CART_ITEMS_SUCCESS:"",
+  CART_ITEMS_GET_ERROR:"",
+  CART_ITEM_ADDED_SUCCESS:"",
+  CART_ITEM_ADDED_FAILED:"",
+  CART_ITEM_UPDATED_SUCCESS:"",
+  CART_ITEM_UPDATED_FAILED:"",
+  CART_ITEM_DELETED_SUCCESS:"",
+  CART_ITEM_DELETED_FAILED:"",
+
+
+
+
+
+
+
+
+
+
 
 }
 
